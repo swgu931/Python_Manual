@@ -1,0 +1,32 @@
+# First of all, I want to explain the environment for Python development, 
+# which will be intended for anyone who don't want to use any install in local computer
+
+## Access to colab.google.com/notebooks
+## it will make you to use on this cloud platform
+
+## notebook of google colab is supposed to be virtual system for python
+## so for convenient we will mount that with your google drive to upload/download between the virtual system and your google drive.
+
+
+## step 1
+from google.colab import drive
+
+## step 2
+import os
+if not os.path.exists('/content/gdrive'):
+  drive.mount('/content/gdrive')
+
+## step 3
+cd /content/gdrive/'My Drive'
+
+## step 4
+if not os.path.exists('Python_Manual'):
+  !git clone https://github.com/swgu931/Python_Manual.git
+
+
+## step 5
+cd Python_Manual
+
+## step 6
+!git pull
+
