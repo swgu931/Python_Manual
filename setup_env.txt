@@ -32,3 +32,9 @@ cd Python_Manual
 
 ## reference site 
 ## https://colab.research.google.com/notebooks/io.ipynb
+
+
+## Direct connected to github
+## https://colab.research.google.com/github/
+
+# EOD
