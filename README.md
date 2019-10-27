@@ -27,19 +27,24 @@
 3) 구글 드라이브와 연결 (mount) 하여 활용
    - 아래 명령어를 실행
    
-    from google.colab import drive
-   
-    drive.mount('/content/drive')
+      from google.colab import drive
+      import os
+      if not os.path.exists('/content/gdrive'):
+        drive.mount('/content/gdrive')
+      
+      drive.mount('/content/drive')
  
+      cd /content/gdrive/'My Drive'
+    
 4) Github에 있는 소스를 직접 연결 
    - https://colab.research.google.com/github/<github.com 이후 path>
    
    
 4) Linux shell 명령어는 다음과 같이 "!" 와 함께 실행 (간단한 것만)
 
-    !ls
+      !ls
 
-    !pwd
+      !pwd
     
 5) 현재 dir 내의 file 들을 보고 싶으면 
    - import os 를 실행
