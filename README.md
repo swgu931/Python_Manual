@@ -11,12 +11,18 @@
 2) colab.research.google.com 으로 접속 --> 새파일을 생성
    - 혹은 Drive 로 접속 --> 새파일을 만둘고, --> 연결할 앱 (더보기) --> colab 연결하기
   
+  ![colab_first_screen](./img/colab_first_screen.png)
+  
 3) 사용할 준비 완료
    - GPU 를 사용하고 싶으면 '수정' --> '노트설정' 에서 GPU 를 선택
     (런타임유형 : Python 3 , 하드웨어 가속기 : GPU 선택)
 
+
 ### 간단 사용법
 1) numpy, TensorFlow 버전 확인
+
+  ![colab_first_screen](./img/colab_version_check.png)
+  
 2) Short Key 사용법
    - 셀 실행은 Shift + Enter 혹은 Ctrl + Enter
    - 아래에 셀 추가는 Ctrl + M + B
