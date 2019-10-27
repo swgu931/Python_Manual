@@ -28,13 +28,13 @@ if not os.path.exists('Python_Manual'):
 cd Python_Manual
 
 ## step 6
-!git pull
+!git pull xxxxx (TBD)
 
 ## reference site 
 ## https://colab.research.google.com/notebooks/io.ipynb
 
 
 ## Direct connected to github
-## https://colab.research.google.com/github/
+## https://colab.research.google.com/github/<github.com 이후 path>
 
 # EOD
