@@ -33,30 +33,34 @@
 3) 구글 드라이브와 연결 (mount) 하여 활용
    - 아래 명령어를 실행
    
-      from google.colab import drive
-      import os
-      if not os.path.exists('/content/gdrive'):
-        drive.mount('/content/gdrive')
+     > from google.colab import drive
+     > import os
+     > if not os.path.exists('/content/gdrive'):
+     >   drive.mount('/content/gdrive')
       
-      drive.mount('/content/drive')
+     > drive.mount('/content/drive')
  
-      cd /content/gdrive/'My Drive'
+     > cd /content/gdrive/'My Drive'
     
 4) Github에 있는 소스를 직접 연결 
    - https://colab.research.google.com/github/<github.com 이후 path>
    
+5) Github에 있는 소스를 colab 으로 copy
+   > !git clone -l -s git://github.com/swgu931/Python_Manual.git cloned-repo
+   > %cd cloned-repo
+   > !ls
    
-4) Linux shell 명령어는 다음과 같이 "!" 와 함께 실행 (간단한 것만)
+6) Linux shell 명령어는 다음과 같이 "!" 와 함께 실행 (간단한 것만)
 
       !ls
 
       !pwd
     
-5) 현재 dir 내의 file 들을 보고 싶으면 
+7) 현재 dir 내의 file 들을 보고 싶으면 
    - import os 를 실행
    - Directory 를 이동할 때는 cd 혹은 os.chdir 을 사용합니다
 
 Appendix
    - 내 PC 에 있는 file 을 upload 하거나 download 하는 방법
     
-    https://colab.research.google.com/notebooks/io.ipynb
+       https://colab.research.google.com/notebooks/io.ipynb
