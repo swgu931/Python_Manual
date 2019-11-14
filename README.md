@@ -21,7 +21,7 @@
 ### 간단 사용법
 1) numpy, TensorFlow 버전 확인
 
-  ![colab_first_screen](./img/colab_version_check.png)
+   ![colab_first_screen](./img/colab_version_check.png)
   
 2) Short Key 사용법
    - 셀 실행은 Shift + Enter 혹은 Ctrl + Enter
@@ -32,30 +32,30 @@
    - 기타 단축키가 보고 싶거나 추가로 설정하고 싶으면 Ctrl + M + H
 3) 구글 드라이브와 연결 (mount) 하여 활용
    - 아래 명령어를 실행
-   
-     > from google.colab import drive
-     > import os
-     > if not os.path.exists('/content/gdrive'):
-     >   drive.mount('/content/gdrive')
+ ```
+      from google.colab import drive
+      import os
+      if not os.path.exists('/content/gdrive'):
+        drive.mount('/content/gdrive')
       
-     > drive.mount('/content/drive')
+      drive.mount('/content/drive')
  
-     > cd /content/gdrive/'My Drive'
-    
+       cd /content/gdrive/'My Drive'
+ ``` 
 4) Github에 있는 소스를 직접 연결 
    - https://colab.research.google.com/github/<github.com 이후 path>
    
 5) Github에 있는 소스를 colab 으로 copy
-   > !git clone -l -s git://github.com/swgu931/Python_Manual.git cloned-repo
-   > %cd cloned-repo
-   > !ls
-   
+```     
+     !git clone -l -s git://github.com/swgu931/Python_Manual.git cloned-repo
+     %cd cloned-repo
+     !ls
+```   
 6) Linux shell 명령어는 다음과 같이 "!" 와 함께 실행 (간단한 것만)
-
+```
       !ls
-
       !pwd
-    
+```    
 7) 현재 dir 내의 file 들을 보고 싶으면 
    - import os 를 실행
    - Directory 를 이동할 때는 cd 혹은 os.chdir 을 사용합니다
