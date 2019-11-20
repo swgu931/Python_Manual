@@ -8,7 +8,7 @@
 ## Reference site
 
 - https://wikidocs.net/43
-- https://dojang.io/mod/page/view.php?id=1060
+- https://dojang.io/course/view.php?id=7
 - http://book.pythontips.com/en/latest/index.html
 
 - (book) 파이썬 라이브러리를 활용한 데이터 분석 (웨스 맥키니, 한빛미디어)
