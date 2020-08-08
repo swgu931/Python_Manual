@@ -40,7 +40,7 @@
       
       drive.mount('/content/drive')
  
-       cd /content/gdrive/'My Drive'
+      !cd /content/gdrive/'My Drive'
  ``` 
 4) Github에 있는 소스를 직접 연결 
    - https://colab.research.google.com/github/<github.com 이후 path>
